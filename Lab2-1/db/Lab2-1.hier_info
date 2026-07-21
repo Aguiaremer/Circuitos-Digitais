@@ -1,0 +1,220 @@
+|Lab2-1
+HEX00 <= Hex7seg:inst11.a
+CLK => Timer_30s:inst.CLK
+KEY1 => inst10.IN0
+HEX01 <= Hex7seg:inst11.b
+HEX02 <= Hex7seg:inst11.c
+HEX03 <= Hex7seg:inst11.d
+HEX04 <= Hex7seg:inst11.e
+HEX05 <= Hex7seg:inst11.f
+HEX06 <= Hex7seg:inst11.g
+HEX10 <= Hex7seg:inst12.a
+HEX11 <= Hex7seg:inst12.b
+HEX12 <= Hex7seg:inst12.c
+HEX13 <= Hex7seg:inst12.d
+HEX14 <= Hex7seg:inst12.e
+HEX15 <= Hex7seg:inst12.f
+HEX16 <= Hex7seg:inst12.g
+
+
+|Lab2-1|Hex7seg:inst11
+M => a.IN0
+M => a.IN0
+M => b.IN0
+M => a.IN0
+M => a.IN0
+M => e.IN0
+M => f.IN0
+N => a.IN1
+N => a.IN1
+N => b.IN0
+N => a.IN1
+N => a.IN1
+N => e.IN0
+O => a.IN1
+O => b.IN1
+O => b.IN1
+O => c.IN1
+O => c.IN1
+O => f.IN1
+O => g.IN1
+O => a.IN1
+O => a.IN1
+O => a.IN1
+O => e.IN1
+P => a.IN1
+P => a.IN1
+P => a.IN1
+P => b.IN1
+P => b.IN1
+P => d.IN1
+P => e.IN1
+P => e.IN1
+P => f.IN1
+P => f.IN1
+P => g.IN1
+P => a.IN1
+P => b.IN1
+P => b.IN1
+P => c.IN1
+P => d.IN1
+P => g.IN1
+a <= a.DB_MAX_OUTPUT_PORT_TYPE
+b <= b.DB_MAX_OUTPUT_PORT_TYPE
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab2-1|Timer_30s:inst
+OUT[0] <= Contador_Decre_9:inst1.P
+OUT[1] <= Contador_Decre_9:inst1.O
+OUT[2] <= Contador_Decre_9:inst1.N
+OUT[3] <= Contador_Decre_9:inst1.M
+OUT[4] <= Contador_Decre_3:inst18.P
+OUT[5] <= Contador_Decre_3:inst18.O
+OUT[6] <= Contador_Decre_3:inst18.N
+OUT[7] <= Contador_Decre_3:inst18.M
+CLK => inst14.IN0
+START => inst20.IN0
+
+
+|Lab2-1|Timer_30s:inst|Contador_Decre_9:inst1
+M <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+N <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+O <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+P <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab2-1|Timer_30s:inst|Contador_Decre_9:inst17
+M <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+N <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+O <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+P <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab2-1|Timer_30s:inst|Contador_Decre_9:inst16
+M <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+N <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+O <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+P <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab2-1|Timer_30s:inst|Contador_Decre_9:inst12
+M <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+N <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+O <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+P <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab2-1|Timer_30s:inst|Timing_Reference:inst
+clk => tmp.CLK
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+clk => count[4].CLK
+clk => count[5].CLK
+clk => count[6].CLK
+clk => count[7].CLK
+clk => count[8].CLK
+clk => count[9].CLK
+clk => count[10].CLK
+clk => count[11].CLK
+clk => count[12].CLK
+clk => count[13].CLK
+clk => count[14].CLK
+clk => count[15].CLK
+clk => count[16].CLK
+clk => count[17].CLK
+clk => count[18].CLK
+clk => count[19].CLK
+clk => count[20].CLK
+clk => count[21].CLK
+clk => count[22].CLK
+clk => count[23].CLK
+clk => count[24].CLK
+clk => count[25].CLK
+clk => count[26].CLK
+clk => count[27].CLK
+clk => count[28].CLK
+clk => count[29].CLK
+clk => count[30].CLK
+clk => count[31].CLK
+timeSelector => LessThan0.IN29
+timeSelector => LessThan0.IN62
+timeSelector => LessThan0.IN63
+timeSelector => LessThan0.IN64
+saida <= tmp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab2-1|Timer_30s:inst|Contador_Decre_3:inst18
+M <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+N <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+O <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+P <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab2-1|Hex7seg:inst12
+M => a.IN0
+M => a.IN0
+M => b.IN0
+M => a.IN0
+M => a.IN0
+M => e.IN0
+M => f.IN0
+N => a.IN1
+N => a.IN1
+N => b.IN0
+N => a.IN1
+N => a.IN1
+N => e.IN0
+O => a.IN1
+O => b.IN1
+O => b.IN1
+O => c.IN1
+O => c.IN1
+O => f.IN1
+O => g.IN1
+O => a.IN1
+O => a.IN1
+O => a.IN1
+O => e.IN1
+P => a.IN1
+P => a.IN1
+P => a.IN1
+P => b.IN1
+P => b.IN1
+P => d.IN1
+P => e.IN1
+P => e.IN1
+P => f.IN1
+P => f.IN1
+P => g.IN1
+P => a.IN1
+P => b.IN1
+P => b.IN1
+P => c.IN1
+P => d.IN1
+P => g.IN1
+a <= a.DB_MAX_OUTPUT_PORT_TYPE
+b <= b.DB_MAX_OUTPUT_PORT_TYPE
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+
+

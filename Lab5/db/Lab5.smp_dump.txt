@@ -1,0 +1,19 @@
+
+State Machine - |Lab5|Lab:inst|estado
+Name estado.E15 estado.E14 estado.E13 estado.E12 estado.E11 estado.E10 estado.E9 estado.E8 estado.E7 estado.E6 estado.E5 estado.E4 estado.E3 estado.E2 estado.E1 estado.E0 
+estado.E0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+estado.E1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+estado.E2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+estado.E3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+estado.E4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+estado.E5 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+estado.E6 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+estado.E7 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+estado.E8 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+estado.E9 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+estado.E10 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+estado.E11 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+estado.E12 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+estado.E13 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+estado.E14 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+estado.E15 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

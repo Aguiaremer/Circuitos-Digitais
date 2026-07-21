@@ -1,0 +1,1193 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'CLK'
+Slack : -6.471
+TNS   : -201.010
+
+Type  : Slow 1200mV 85C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst1|inst'
+Slack : -2.265
+TNS   : -25.863
+
+Type  : Slow 1200mV 85C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst1|inst1'
+Slack : -2.149
+TNS   : -23.975
+
+Type  : Slow 1200mV 85C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst1|inst2'
+Slack : -1.897
+TNS   : -19.786
+
+Type  : Slow 1200mV 85C Model Setup 'KEY1'
+Slack : -1.893
+TNS   : -7.334
+
+Type  : Slow 1200mV 85C Model Setup 'Game:inst|inst101'
+Slack : -1.341
+TNS   : -5.931
+
+Type  : Slow 1200mV 85C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst16|inst1'
+Slack : -0.977
+TNS   : -1.347
+
+Type  : Slow 1200mV 85C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst16|inst'
+Slack : -0.972
+TNS   : -1.425
+
+Type  : Slow 1200mV 85C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst16|inst2'
+Slack : -0.760
+TNS   : -0.760
+
+Type  : Slow 1200mV 85C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst17|inst1'
+Slack : -0.691
+TNS   : -1.008
+
+Type  : Slow 1200mV 85C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst12|inst1'
+Slack : -0.631
+TNS   : -1.240
+
+Type  : Slow 1200mV 85C Model Setup 'Timer_30s:inst67|Contador_Decre_3:inst18|inst'
+Slack : -0.533
+TNS   : -1.009
+
+Type  : Slow 1200mV 85C Model Setup 'Timer_30s:inst67|Timing_Reference:inst|tmp'
+Slack : -0.482
+TNS   : -0.482
+
+Type  : Slow 1200mV 85C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst12|inst'
+Slack : -0.468
+TNS   : -0.680
+
+Type  : Slow 1200mV 85C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst17|inst'
+Slack : -0.412
+TNS   : -0.785
+
+Type  : Slow 1200mV 85C Model Setup 'Timer_30s:inst67|Contador_Decre_3:inst18|inst2'
+Slack : -0.390
+TNS   : -0.390
+
+Type  : Slow 1200mV 85C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst12|inst2'
+Slack : -0.367
+TNS   : -0.367
+
+Type  : Slow 1200mV 85C Model Setup 'Timer_30s:inst67|Contador_Decre_3:inst18|inst1'
+Slack : -0.361
+TNS   : -0.579
+
+Type  : Slow 1200mV 85C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst17|inst2'
+Slack : -0.329
+TNS   : -0.329
+
+Type  : Slow 1200mV 85C Model Hold 'KEY1'
+Slack : -0.815
+TNS   : -0.815
+
+Type  : Slow 1200mV 85C Model Hold 'Game:inst|inst101'
+Slack : -0.728
+TNS   : -6.424
+
+Type  : Slow 1200mV 85C Model Hold 'Timer_30s:inst67|Contador_Decre_3:inst18|inst1'
+Slack : -0.713
+TNS   : -0.713
+
+Type  : Slow 1200mV 85C Model Hold 'Timer_30s:inst67|Contador_Decre_3:inst18|inst2'
+Slack : -0.481
+TNS   : -0.481
+
+Type  : Slow 1200mV 85C Model Hold 'Timer_30s:inst67|Contador_Decre_3:inst18|inst'
+Slack : -0.391
+TNS   : -0.391
+
+Type  : Slow 1200mV 85C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst1|inst2'
+Slack : -0.096
+TNS   : -0.903
+
+Type  : Slow 1200mV 85C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst1|inst1'
+Slack : 0.165
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst17|inst'
+Slack : 0.304
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CLK'
+Slack : 0.323
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst17|inst2'
+Slack : 0.332
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst1|inst'
+Slack : 0.366
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst12|inst'
+Slack : 0.385
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst12|inst2'
+Slack : 0.393
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst16|inst2'
+Slack : 0.393
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Timer_30s:inst67|Timing_Reference:inst|tmp'
+Slack : 0.471
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst17|inst1'
+Slack : 0.490
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst16|inst1'
+Slack : 0.498
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst16|inst'
+Slack : 0.575
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst12|inst1'
+Slack : 0.586
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst16|inst2'
+Slack : -5.354
+TNS   : -8.986
+
+Type  : Slow 1200mV 85C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst1|inst'
+Slack : -4.818
+TNS   : -38.382
+
+Type  : Slow 1200mV 85C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst1|inst1'
+Slack : -4.485
+TNS   : -35.706
+
+Type  : Slow 1200mV 85C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst1|inst2'
+Slack : -4.231
+TNS   : -33.142
+
+Type  : Slow 1200mV 85C Model Recovery 'Contador_Cresc_9:inst30|inst'
+Slack : -3.643
+TNS   : -3.643
+
+Type  : Slow 1200mV 85C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst17|inst1'
+Slack : -3.257
+TNS   : -6.947
+
+Type  : Slow 1200mV 85C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst17|inst'
+Slack : -3.234
+TNS   : -5.980
+
+Type  : Slow 1200mV 85C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst12|inst1'
+Slack : -3.030
+TNS   : -6.358
+
+Type  : Slow 1200mV 85C Model Recovery 'Contador_Cresc_9:inst31|inst'
+Slack : -3.027
+TNS   : -3.027
+
+Type  : Slow 1200mV 85C Model Recovery 'Timer_30s:inst67|Contador_Decre_3:inst18|inst2'
+Slack : -2.968
+TNS   : -3.691
+
+Type  : Slow 1200mV 85C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst17|inst2'
+Slack : -2.895
+TNS   : -6.232
+
+Type  : Slow 1200mV 85C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst12|inst'
+Slack : -2.894
+TNS   : -5.971
+
+Type  : Slow 1200mV 85C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst16|inst'
+Slack : -2.803
+TNS   : -5.788
+
+Type  : Slow 1200mV 85C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst12|inst2'
+Slack : -2.788
+TNS   : -5.909
+
+Type  : Slow 1200mV 85C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst16|inst1'
+Slack : -2.761
+TNS   : -6.210
+
+Type  : Slow 1200mV 85C Model Recovery 'Timer_30s:inst67|Timing_Reference:inst|tmp'
+Slack : -2.199
+TNS   : -2.199
+
+Type  : Slow 1200mV 85C Model Recovery 'KEY1'
+Slack : -2.055
+TNS   : -8.220
+
+Type  : Slow 1200mV 85C Model Recovery 'Game:inst|inst101'
+Slack : -2.038
+TNS   : -16.357
+
+Type  : Slow 1200mV 85C Model Recovery 'Timer_30s:inst67|Contador_Decre_3:inst18|inst'
+Slack : -1.498
+TNS   : -2.229
+
+Type  : Slow 1200mV 85C Model Recovery 'Timer_30s:inst67|Contador_Decre_3:inst18|inst1'
+Slack : -1.298
+TNS   : -2.375
+
+Type  : Slow 1200mV 85C Model Removal 'Contador_Cresc_9:inst31|inst'
+Slack : -0.097
+TNS   : -0.097
+
+Type  : Slow 1200mV 85C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst1|inst2'
+Slack : 0.034
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Contador_Cresc_9:inst30|inst'
+Slack : 0.071
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Timer_30s:inst67|Contador_Decre_3:inst18|inst1'
+Slack : 0.112
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Game:inst|inst101'
+Slack : 0.164
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Timer_30s:inst67|Contador_Decre_3:inst18|inst2'
+Slack : 0.221
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Timer_30s:inst67|Contador_Decre_3:inst18|inst'
+Slack : 0.230
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst1|inst1'
+Slack : 0.281
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst17|inst2'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst16|inst2'
+Slack : 0.363
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst12|inst2'
+Slack : 0.365
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst17|inst'
+Slack : 0.367
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst1|inst'
+Slack : 0.392
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst16|inst'
+Slack : 0.422
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst16|inst1'
+Slack : 0.469
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst12|inst'
+Slack : 0.596
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst17|inst1'
+Slack : 0.608
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst12|inst1'
+Slack : 0.739
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'KEY1'
+Slack : 0.898
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Timer_30s:inst67|Timing_Reference:inst|tmp'
+Slack : 1.042
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -123.658
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'KEY1'
+Slack : -3.000
+TNS   : -10.015
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst1|inst'
+Slack : -1.403
+TNS   : -25.254
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst1|inst1'
+Slack : -1.403
+TNS   : -25.254
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst1|inst2'
+Slack : -1.403
+TNS   : -25.254
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Game:inst|inst101'
+Slack : -1.403
+TNS   : -23.851
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_3:inst18|inst'
+Slack : -1.403
+TNS   : -4.209
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_3:inst18|inst1'
+Slack : -1.403
+TNS   : -4.209
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_3:inst18|inst2'
+Slack : -1.403
+TNS   : -4.209
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst12|inst'
+Slack : -1.403
+TNS   : -4.209
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst12|inst1'
+Slack : -1.403
+TNS   : -4.209
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst12|inst2'
+Slack : -1.403
+TNS   : -4.209
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst16|inst'
+Slack : -1.403
+TNS   : -4.209
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst16|inst1'
+Slack : -1.403
+TNS   : -4.209
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst16|inst2'
+Slack : -1.403
+TNS   : -4.209
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst17|inst'
+Slack : -1.403
+TNS   : -4.209
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst17|inst1'
+Slack : -1.403
+TNS   : -4.209
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst17|inst2'
+Slack : -1.403
+TNS   : -4.209
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Contador_Cresc_9:inst30|inst'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Contador_Cresc_9:inst31|inst'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Timer_30s:inst67|Timing_Reference:inst|tmp'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Setup 'CLK'
+Slack : -5.969
+TNS   : -179.407
+
+Type  : Slow 1200mV 0C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst1|inst'
+Slack : -2.036
+TNS   : -23.405
+
+Type  : Slow 1200mV 0C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst1|inst1'
+Slack : -1.932
+TNS   : -21.747
+
+Type  : Slow 1200mV 0C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst1|inst2'
+Slack : -1.691
+TNS   : -17.999
+
+Type  : Slow 1200mV 0C Model Setup 'KEY1'
+Slack : -1.645
+TNS   : -6.487
+
+Type  : Slow 1200mV 0C Model Setup 'Game:inst|inst101'
+Slack : -1.166
+TNS   : -4.965
+
+Type  : Slow 1200mV 0C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst16|inst1'
+Slack : -0.893
+TNS   : -1.162
+
+Type  : Slow 1200mV 0C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst16|inst'
+Slack : -0.880
+TNS   : -1.280
+
+Type  : Slow 1200mV 0C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst16|inst2'
+Slack : -0.693
+TNS   : -0.693
+
+Type  : Slow 1200mV 0C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst17|inst1'
+Slack : -0.622
+TNS   : -0.868
+
+Type  : Slow 1200mV 0C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst12|inst1'
+Slack : -0.567
+TNS   : -1.098
+
+Type  : Slow 1200mV 0C Model Setup 'Timer_30s:inst67|Contador_Decre_3:inst18|inst'
+Slack : -0.463
+TNS   : -0.872
+
+Type  : Slow 1200mV 0C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst12|inst'
+Slack : -0.424
+TNS   : -0.596
+
+Type  : Slow 1200mV 0C Model Setup 'Timer_30s:inst67|Timing_Reference:inst|tmp'
+Slack : -0.396
+TNS   : -0.396
+
+Type  : Slow 1200mV 0C Model Setup 'Timer_30s:inst67|Contador_Decre_3:inst18|inst2'
+Slack : -0.380
+TNS   : -0.380
+
+Type  : Slow 1200mV 0C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst17|inst'
+Slack : -0.370
+TNS   : -0.691
+
+Type  : Slow 1200mV 0C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst12|inst2'
+Slack : -0.353
+TNS   : -0.353
+
+Type  : Slow 1200mV 0C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst17|inst2'
+Slack : -0.299
+TNS   : -0.299
+
+Type  : Slow 1200mV 0C Model Setup 'Timer_30s:inst67|Contador_Decre_3:inst18|inst1'
+Slack : -0.249
+TNS   : -0.439
+
+Type  : Slow 1200mV 0C Model Hold 'KEY1'
+Slack : -0.809
+TNS   : -0.809
+
+Type  : Slow 1200mV 0C Model Hold 'Timer_30s:inst67|Contador_Decre_3:inst18|inst1'
+Slack : -0.685
+TNS   : -0.685
+
+Type  : Slow 1200mV 0C Model Hold 'Game:inst|inst101'
+Slack : -0.682
+TNS   : -5.830
+
+Type  : Slow 1200mV 0C Model Hold 'Timer_30s:inst67|Contador_Decre_3:inst18|inst2'
+Slack : -0.475
+TNS   : -0.475
+
+Type  : Slow 1200mV 0C Model Hold 'Timer_30s:inst67|Contador_Decre_3:inst18|inst'
+Slack : -0.388
+TNS   : -0.388
+
+Type  : Slow 1200mV 0C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst1|inst2'
+Slack : -0.103
+TNS   : -0.900
+
+Type  : Slow 1200mV 0C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst1|inst1'
+Slack : 0.148
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CLK'
+Slack : 0.290
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst17|inst'
+Slack : 0.290
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst1|inst'
+Slack : 0.337
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst17|inst2'
+Slack : 0.352
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst12|inst2'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst16|inst2'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst12|inst'
+Slack : 0.374
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Timer_30s:inst67|Timing_Reference:inst|tmp'
+Slack : 0.422
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst16|inst1'
+Slack : 0.429
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst17|inst1'
+Slack : 0.453
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst12|inst1'
+Slack : 0.518
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst16|inst'
+Slack : 0.541
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst16|inst2'
+Slack : -4.935
+TNS   : -8.283
+
+Type  : Slow 1200mV 0C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst1|inst'
+Slack : -4.472
+TNS   : -34.669
+
+Type  : Slow 1200mV 0C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst1|inst1'
+Slack : -4.108
+TNS   : -32.189
+
+Type  : Slow 1200mV 0C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst1|inst2'
+Slack : -3.881
+TNS   : -29.932
+
+Type  : Slow 1200mV 0C Model Recovery 'Contador_Cresc_9:inst30|inst'
+Slack : -3.256
+TNS   : -3.256
+
+Type  : Slow 1200mV 0C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst17|inst1'
+Slack : -3.068
+TNS   : -6.384
+
+Type  : Slow 1200mV 0C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst17|inst'
+Slack : -2.982
+TNS   : -5.413
+
+Type  : Slow 1200mV 0C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst12|inst1'
+Slack : -2.888
+TNS   : -5.836
+
+Type  : Slow 1200mV 0C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst17|inst2'
+Slack : -2.745
+TNS   : -5.714
+
+Type  : Slow 1200mV 0C Model Recovery 'Contador_Cresc_9:inst31|inst'
+Slack : -2.738
+TNS   : -2.738
+
+Type  : Slow 1200mV 0C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst12|inst'
+Slack : -2.716
+TNS   : -5.451
+
+Type  : Slow 1200mV 0C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst12|inst2'
+Slack : -2.674
+TNS   : -5.459
+
+Type  : Slow 1200mV 0C Model Recovery 'Timer_30s:inst67|Contador_Decre_3:inst18|inst2'
+Slack : -2.647
+TNS   : -3.214
+
+Type  : Slow 1200mV 0C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst16|inst'
+Slack : -2.582
+TNS   : -5.200
+
+Type  : Slow 1200mV 0C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst16|inst1'
+Slack : -2.578
+TNS   : -5.622
+
+Type  : Slow 1200mV 0C Model Recovery 'Timer_30s:inst67|Timing_Reference:inst|tmp'
+Slack : -1.928
+TNS   : -1.928
+
+Type  : Slow 1200mV 0C Model Recovery 'KEY1'
+Slack : -1.841
+TNS   : -7.364
+
+Type  : Slow 1200mV 0C Model Recovery 'Game:inst|inst101'
+Slack : -1.688
+TNS   : -13.656
+
+Type  : Slow 1200mV 0C Model Recovery 'Timer_30s:inst67|Contador_Decre_3:inst18|inst'
+Slack : -1.270
+TNS   : -1.857
+
+Type  : Slow 1200mV 0C Model Recovery 'Timer_30s:inst67|Contador_Decre_3:inst18|inst1'
+Slack : -1.193
+TNS   : -2.169
+
+Type  : Slow 1200mV 0C Model Removal 'Contador_Cresc_9:inst31|inst'
+Slack : -0.102
+TNS   : -0.102
+
+Type  : Slow 1200mV 0C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst1|inst2'
+Slack : -0.029
+TNS   : -0.029
+
+Type  : Slow 1200mV 0C Model Removal 'Contador_Cresc_9:inst30|inst'
+Slack : 0.069
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Timer_30s:inst67|Contador_Decre_3:inst18|inst1'
+Slack : 0.126
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Game:inst|inst101'
+Slack : 0.138
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Timer_30s:inst67|Contador_Decre_3:inst18|inst2'
+Slack : 0.170
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Timer_30s:inst67|Contador_Decre_3:inst18|inst'
+Slack : 0.190
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst1|inst1'
+Slack : 0.208
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst17|inst2'
+Slack : 0.284
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst1|inst'
+Slack : 0.293
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst17|inst'
+Slack : 0.309
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst16|inst2'
+Slack : 0.330
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst12|inst2'
+Slack : 0.346
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst16|inst'
+Slack : 0.359
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst16|inst1'
+Slack : 0.433
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst12|inst'
+Slack : 0.519
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst17|inst1'
+Slack : 0.557
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst12|inst1'
+Slack : 0.679
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'KEY1'
+Slack : 0.833
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Timer_30s:inst67|Timing_Reference:inst|tmp'
+Slack : 0.973
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -123.658
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'KEY1'
+Slack : -3.000
+TNS   : -10.015
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst1|inst'
+Slack : -1.403
+TNS   : -25.254
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst1|inst1'
+Slack : -1.403
+TNS   : -25.254
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst1|inst2'
+Slack : -1.403
+TNS   : -25.254
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Game:inst|inst101'
+Slack : -1.403
+TNS   : -23.851
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_3:inst18|inst'
+Slack : -1.403
+TNS   : -4.209
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_3:inst18|inst1'
+Slack : -1.403
+TNS   : -4.209
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_3:inst18|inst2'
+Slack : -1.403
+TNS   : -4.209
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst12|inst'
+Slack : -1.403
+TNS   : -4.209
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst12|inst1'
+Slack : -1.403
+TNS   : -4.209
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst12|inst2'
+Slack : -1.403
+TNS   : -4.209
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst16|inst'
+Slack : -1.403
+TNS   : -4.209
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst16|inst1'
+Slack : -1.403
+TNS   : -4.209
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst16|inst2'
+Slack : -1.403
+TNS   : -4.209
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst17|inst'
+Slack : -1.403
+TNS   : -4.209
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst17|inst1'
+Slack : -1.403
+TNS   : -4.209
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst17|inst2'
+Slack : -1.403
+TNS   : -4.209
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Contador_Cresc_9:inst30|inst'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Contador_Cresc_9:inst31|inst'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Timer_30s:inst67|Timing_Reference:inst|tmp'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Fast 1200mV 0C Model Setup 'CLK'
+Slack : -2.376
+TNS   : -44.565
+
+Type  : Fast 1200mV 0C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst1|inst'
+Slack : -0.658
+TNS   : -5.306
+
+Type  : Fast 1200mV 0C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst1|inst1'
+Slack : -0.624
+TNS   : -4.819
+
+Type  : Fast 1200mV 0C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst1|inst2'
+Slack : -0.525
+TNS   : -3.305
+
+Type  : Fast 1200mV 0C Model Setup 'KEY1'
+Slack : -0.514
+TNS   : -1.292
+
+Type  : Fast 1200mV 0C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst16|inst'
+Slack : -0.116
+TNS   : -0.116
+
+Type  : Fast 1200mV 0C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst16|inst1'
+Slack : -0.098
+TNS   : -0.098
+
+Type  : Fast 1200mV 0C Model Setup 'Game:inst|inst101'
+Slack : -0.019
+TNS   : -0.030
+
+Type  : Fast 1200mV 0C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst16|inst2'
+Slack : -0.006
+TNS   : -0.006
+
+Type  : Fast 1200mV 0C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst12|inst1'
+Slack : 0.035
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst17|inst1'
+Slack : 0.054
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst12|inst'
+Slack : 0.083
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Timer_30s:inst67|Contador_Decre_3:inst18|inst'
+Slack : 0.095
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Timer_30s:inst67|Contador_Decre_3:inst18|inst1'
+Slack : 0.100
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Timer_30s:inst67|Timing_Reference:inst|tmp'
+Slack : 0.124
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst12|inst2'
+Slack : 0.128
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Timer_30s:inst67|Contador_Decre_3:inst18|inst2'
+Slack : 0.149
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst17|inst'
+Slack : 0.159
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Timer_30s:inst67|Contador_Decre_9:inst17|inst2'
+Slack : 0.218
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'KEY1'
+Slack : -0.338
+TNS   : -0.338
+
+Type  : Fast 1200mV 0C Model Hold 'Timer_30s:inst67|Contador_Decre_3:inst18|inst1'
+Slack : -0.300
+TNS   : -0.300
+
+Type  : Fast 1200mV 0C Model Hold 'Timer_30s:inst67|Contador_Decre_3:inst18|inst2'
+Slack : -0.190
+TNS   : -0.190
+
+Type  : Fast 1200mV 0C Model Hold 'Timer_30s:inst67|Contador_Decre_3:inst18|inst'
+Slack : -0.150
+TNS   : -0.150
+
+Type  : Fast 1200mV 0C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst1|inst2'
+Slack : -0.025
+TNS   : -0.233
+
+Type  : Fast 1200mV 0C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst17|inst2'
+Slack : 0.071
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst1|inst1'
+Slack : 0.075
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst17|inst'
+Slack : 0.092
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Game:inst|inst101'
+Slack : 0.095
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst1|inst'
+Slack : 0.119
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst12|inst'
+Slack : 0.138
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CLK'
+Slack : 0.141
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst12|inst2'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst17|inst1'
+Slack : 0.167
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst16|inst2'
+Slack : 0.170
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst16|inst'
+Slack : 0.171
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Timer_30s:inst67|Timing_Reference:inst|tmp'
+Slack : 0.172
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst16|inst1'
+Slack : 0.175
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Timer_30s:inst67|Contador_Decre_9:inst12|inst1'
+Slack : 0.219
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst16|inst2'
+Slack : -2.277
+TNS   : -3.358
+
+Type  : Fast 1200mV 0C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst1|inst'
+Slack : -2.069
+TNS   : -15.174
+
+Type  : Fast 1200mV 0C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst1|inst1'
+Slack : -2.048
+TNS   : -14.144
+
+Type  : Fast 1200mV 0C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst1|inst2'
+Slack : -1.926
+TNS   : -12.891
+
+Type  : Fast 1200mV 0C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst17|inst'
+Slack : -1.295
+TNS   : -1.883
+
+Type  : Fast 1200mV 0C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst17|inst1'
+Slack : -1.234
+TNS   : -2.247
+
+Type  : Fast 1200mV 0C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst12|inst1'
+Slack : -1.149
+TNS   : -2.026
+
+Type  : Fast 1200mV 0C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst12|inst'
+Slack : -1.136
+TNS   : -1.823
+
+Type  : Fast 1200mV 0C Model Recovery 'Timer_30s:inst67|Contador_Decre_3:inst18|inst2'
+Slack : -1.130
+TNS   : -1.130
+
+Type  : Fast 1200mV 0C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst17|inst2'
+Slack : -1.070
+TNS   : -1.946
+
+Type  : Fast 1200mV 0C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst12|inst2'
+Slack : -1.056
+TNS   : -1.838
+
+Type  : Fast 1200mV 0C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst16|inst'
+Slack : -1.034
+TNS   : -1.709
+
+Type  : Fast 1200mV 0C Model Recovery 'Contador_Cresc_9:inst30|inst'
+Slack : -1.018
+TNS   : -1.018
+
+Type  : Fast 1200mV 0C Model Recovery 'Contador_Cresc_9:inst31|inst'
+Slack : -0.995
+TNS   : -0.995
+
+Type  : Fast 1200mV 0C Model Recovery 'Timer_30s:inst67|Contador_Decre_9:inst16|inst1'
+Slack : -0.962
+TNS   : -1.902
+
+Type  : Fast 1200mV 0C Model Recovery 'Timer_30s:inst67|Timing_Reference:inst|tmp'
+Slack : -0.694
+TNS   : -0.694
+
+Type  : Fast 1200mV 0C Model Recovery 'Game:inst|inst101'
+Slack : -0.683
+TNS   : -4.488
+
+Type  : Fast 1200mV 0C Model Recovery 'Timer_30s:inst67|Contador_Decre_3:inst18|inst'
+Slack : -0.409
+TNS   : -0.409
+
+Type  : Fast 1200mV 0C Model Recovery 'KEY1'
+Slack : -0.305
+TNS   : -1.220
+
+Type  : Fast 1200mV 0C Model Recovery 'Timer_30s:inst67|Contador_Decre_3:inst18|inst1'
+Slack : -0.226
+TNS   : -0.401
+
+Type  : Fast 1200mV 0C Model Removal 'Contador_Cresc_9:inst31|inst'
+Slack : -0.034
+TNS   : -0.034
+
+Type  : Fast 1200mV 0C Model Removal 'Timer_30s:inst67|Contador_Decre_3:inst18|inst1'
+Slack : 0.020
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Contador_Cresc_9:inst30|inst'
+Slack : 0.035
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst1|inst2'
+Slack : 0.053
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst1|inst1'
+Slack : 0.074
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Timer_30s:inst67|Contador_Decre_3:inst18|inst2'
+Slack : 0.124
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Timer_30s:inst67|Contador_Decre_3:inst18|inst'
+Slack : 0.131
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst17|inst2'
+Slack : 0.139
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst12|inst2'
+Slack : 0.147
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst16|inst2'
+Slack : 0.167
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst16|inst1'
+Slack : 0.200
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst17|inst'
+Slack : 0.200
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst16|inst'
+Slack : 0.212
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst1|inst'
+Slack : 0.246
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst17|inst1'
+Slack : 0.266
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst12|inst1'
+Slack : 0.273
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Timer_30s:inst67|Contador_Decre_9:inst12|inst'
+Slack : 0.286
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'KEY1'
+Slack : 0.396
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Timer_30s:inst67|Timing_Reference:inst|tmp'
+Slack : 0.397
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Game:inst|inst101'
+Slack : 0.480
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -91.060
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'KEY1'
+Slack : -3.000
+TNS   : -8.355
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst1|inst'
+Slack : -1.000
+TNS   : -18.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst1|inst1'
+Slack : -1.000
+TNS   : -18.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst1|inst2'
+Slack : -1.000
+TNS   : -18.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Game:inst|inst101'
+Slack : -1.000
+TNS   : -17.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_3:inst18|inst'
+Slack : -1.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_3:inst18|inst1'
+Slack : -1.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_3:inst18|inst2'
+Slack : -1.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst12|inst'
+Slack : -1.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst12|inst1'
+Slack : -1.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst12|inst2'
+Slack : -1.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst16|inst'
+Slack : -1.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst16|inst1'
+Slack : -1.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst16|inst2'
+Slack : -1.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst17|inst'
+Slack : -1.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst17|inst1'
+Slack : -1.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Timer_30s:inst67|Contador_Decre_9:inst17|inst2'
+Slack : -1.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Contador_Cresc_9:inst30|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Contador_Cresc_9:inst31|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Timer_30s:inst67|Timing_Reference:inst|tmp'
+Slack : -1.000
+TNS   : -1.000
+
+------------------------------------------------------------

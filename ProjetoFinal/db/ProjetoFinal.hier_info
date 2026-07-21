@@ -1,0 +1,641 @@
+|ProjetoFinal
+LEDR0 <= Game:inst.LEDR0
+CLK => Game:inst.CLK
+CLK => Timer_30s:inst67.CLK
+CLK => Switch_bus_detector:inst59.CLK
+KEY0 => inst89.IN0
+KEY1 => inst57.IN0
+SW9 => Switch_bus_detector:inst59.IN[9]
+SW8 => Switch_bus_detector:inst59.IN[8]
+SW7 => Switch_bus_detector:inst59.IN[7]
+SW6 => Switch_bus_detector:inst59.IN[6]
+SW5 => Switch_bus_detector:inst59.IN[5]
+SW4 => Switch_bus_detector:inst59.IN[4]
+SW3 => Switch_bus_detector:inst59.IN[3]
+SW2 => Switch_bus_detector:inst59.IN[2]
+SW1 => Switch_bus_detector:inst59.IN[1]
+SW0 => Switch_bus_detector:inst59.IN[0]
+LEDR1 <= Game:inst.LEDR1
+LEDR2 <= Game:inst.LEDR2
+LEDR3 <= Game:inst.LEDR3
+LEDR4 <= Game:inst.LEDR4
+LEDR5 <= Game:inst.LEDR5
+LEDR6 <= Game:inst.LEDR6
+LEDR7 <= Game:inst.LEDR7
+LEDR8 <= Game:inst.LEDR8
+LEDR9 <= Game:inst.LEDR9
+HEX00 <= Hex7seg:int60.a
+HEX01 <= Hex7seg:int60.b
+HEX02 <= Hex7seg:int60.c
+HEX03 <= Hex7seg:int60.d
+HEX04 <= Hex7seg:int60.e
+HEX05 <= Hex7seg:int60.f
+HEX06 <= Hex7seg:int60.g
+HEX10 <= Hex7seg:inst99.a
+HEX11 <= Hex7seg:inst99.b
+HEX12 <= Hex7seg:inst99.c
+HEX13 <= Hex7seg:inst99.d
+HEX14 <= Hex7seg:inst99.e
+HEX15 <= Hex7seg:inst99.f
+HEX16 <= Hex7seg:inst99.g
+HEX40 <= Hex7seg:inst3.a
+HEX41 <= Hex7seg:inst3.b
+HEX42 <= Hex7seg:inst3.c
+HEX43 <= Hex7seg:inst3.d
+HEX44 <= Hex7seg:inst3.e
+HEX45 <= Hex7seg:inst3.f
+HEX47 <= Hex7seg:inst3.g
+HEX50 <= Hex7seg:inst4.a
+HEX51 <= Hex7seg:inst4.b
+HEX52 <= Hex7seg:inst4.c
+HEX53 <= Hex7seg:inst4.d
+HEX54 <= Hex7seg:inst4.e
+HEX55 <= Hex7seg:inst4.f
+HEX56 <= Hex7seg:inst4.g
+
+
+|ProjetoFinal|Game:inst
+LEDR0 <= inst99.DB_MAX_OUTPUT_PORT_TYPE
+CTRL[0] => inst2.IN1
+CTRL[1] => inst3.IN1
+CTRL[2] => inst6.IN1
+CTRL[3] => inst8.IN1
+CTRL[4] => inst10.IN1
+CTRL[5] => inst12.IN1
+CTRL[6] => inst14.IN1
+CTRL[7] => inst16.IN1
+CTRL[8] => inst18.IN1
+CTRL[9] => inst69.IN1
+CLK => Deliberate:inst.CLK
+START => inst1.IN1
+ON => inst7.IN1
+LEDR1 <= inst101.DB_MAX_OUTPUT_PORT_TYPE
+LEDR2 <= inst102.DB_MAX_OUTPUT_PORT_TYPE
+LEDR3 <= inst103.DB_MAX_OUTPUT_PORT_TYPE
+LEDR4 <= inst104.DB_MAX_OUTPUT_PORT_TYPE
+LEDR5 <= inst105.DB_MAX_OUTPUT_PORT_TYPE
+LEDR6 <= inst106.DB_MAX_OUTPUT_PORT_TYPE
+LEDR7 <= inst107.DB_MAX_OUTPUT_PORT_TYPE
+LEDR8 <= inst108.DB_MAX_OUTPUT_PORT_TYPE
+LEDR9 <= inst109.DB_MAX_OUTPUT_PORT_TYPE
+SCORE <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ProjetoFinal|Game:inst|Deliberate:inst
+OUT[0] <= inst36.DB_MAX_OUTPUT_PORT_TYPE
+OUT[1] <= inst38.DB_MAX_OUTPUT_PORT_TYPE
+OUT[2] <= inst39.DB_MAX_OUTPUT_PORT_TYPE
+OUT[3] <= inst40.DB_MAX_OUTPUT_PORT_TYPE
+OUT[4] <= inst41.DB_MAX_OUTPUT_PORT_TYPE
+OUT[5] <= inst42.DB_MAX_OUTPUT_PORT_TYPE
+OUT[6] <= inst43.DB_MAX_OUTPUT_PORT_TYPE
+OUT[7] <= inst44.DB_MAX_OUTPUT_PORT_TYPE
+OUT[8] <= inst45.DB_MAX_OUTPUT_PORT_TYPE
+OUT[9] <= inst46.DB_MAX_OUTPUT_PORT_TYPE
+CLK => Timing_Reference:inst47.clk
+CHOOSE => inst33.IN0
+CHOOSE => inst36.IN1
+CHOOSE => inst38.IN1
+CHOOSE => inst39.IN1
+CHOOSE => inst40.IN1
+CHOOSE => inst41.IN1
+CHOOSE => inst42.IN1
+CHOOSE => inst43.IN1
+CHOOSE => inst44.IN1
+CHOOSE => inst45.IN1
+CHOOSE => inst46.IN1
+
+
+|ProjetoFinal|Game:inst|Deliberate:inst|contador_0_a_10:inst
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => counter[2].CLK
+clk => counter[3].CLK
+reset => counter[0].ACLR
+reset => counter[1].ACLR
+reset => counter[2].ACLR
+reset => counter[3].ACLR
+count[0] <= counter[0].DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= counter[1].DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= counter[2].DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= counter[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ProjetoFinal|Game:inst|Deliberate:inst|Timing_Reference:inst47
+clk => tmp.CLK
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+clk => count[4].CLK
+clk => count[5].CLK
+clk => count[6].CLK
+clk => count[7].CLK
+clk => count[8].CLK
+clk => count[9].CLK
+clk => count[10].CLK
+clk => count[11].CLK
+clk => count[12].CLK
+clk => count[13].CLK
+clk => count[14].CLK
+clk => count[15].CLK
+clk => count[16].CLK
+clk => count[17].CLK
+clk => count[18].CLK
+clk => count[19].CLK
+clk => count[20].CLK
+clk => count[21].CLK
+clk => count[22].CLK
+clk => count[23].CLK
+clk => count[24].CLK
+clk => count[25].CLK
+clk => count[26].CLK
+clk => count[27].CLK
+clk => count[28].CLK
+clk => count[29].CLK
+clk => count[30].CLK
+clk => count[31].CLK
+timeSelector => LessThan0.IN19
+timeSelector => LessThan0.IN20
+timeSelector => LessThan0.IN21
+timeSelector => LessThan0.IN22
+timeSelector => LessThan0.IN23
+timeSelector => LessThan0.IN24
+timeSelector => LessThan0.IN25
+timeSelector => LessThan0.IN26
+timeSelector => LessThan0.IN27
+timeSelector => LessThan0.IN28
+timeSelector => LessThan0.IN61
+timeSelector => LessThan0.IN62
+timeSelector => LessThan0.IN63
+timeSelector => LessThan0.IN64
+saida <= tmp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ProjetoFinal|Timer_30s:inst67
+ON <= inst19.DB_MAX_OUTPUT_PORT_TYPE
+START => inst2.IN0
+OUT[0] <= Contador_Decre_9:inst1.P
+OUT[1] <= Contador_Decre_9:inst1.O
+OUT[2] <= Contador_Decre_9:inst1.N
+OUT[3] <= Contador_Decre_9:inst1.M
+OUT[4] <= Contador_Decre_3:inst18.P
+OUT[5] <= Contador_Decre_3:inst18.O
+OUT[6] <= Contador_Decre_3:inst18.N
+OUT[7] <= Contador_Decre_3:inst18.M
+CLK => inst14.IN0
+
+
+|ProjetoFinal|Timer_30s:inst67|Contador_Decre_9:inst1
+M <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+N <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+O <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+P <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ProjetoFinal|Timer_30s:inst67|Contador_Decre_9:inst17
+M <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+N <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+O <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+P <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ProjetoFinal|Timer_30s:inst67|Contador_Decre_9:inst16
+M <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+N <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+O <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+P <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ProjetoFinal|Timer_30s:inst67|Contador_Decre_9:inst12
+M <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+N <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+O <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+P <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ProjetoFinal|Timer_30s:inst67|Timing_Reference:inst
+clk => tmp.CLK
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+clk => count[4].CLK
+clk => count[5].CLK
+clk => count[6].CLK
+clk => count[7].CLK
+clk => count[8].CLK
+clk => count[9].CLK
+clk => count[10].CLK
+clk => count[11].CLK
+clk => count[12].CLK
+clk => count[13].CLK
+clk => count[14].CLK
+clk => count[15].CLK
+clk => count[16].CLK
+clk => count[17].CLK
+clk => count[18].CLK
+clk => count[19].CLK
+clk => count[20].CLK
+clk => count[21].CLK
+clk => count[22].CLK
+clk => count[23].CLK
+clk => count[24].CLK
+clk => count[25].CLK
+clk => count[26].CLK
+clk => count[27].CLK
+clk => count[28].CLK
+clk => count[29].CLK
+clk => count[30].CLK
+clk => count[31].CLK
+timeSelector => LessThan0.IN19
+timeSelector => LessThan0.IN20
+timeSelector => LessThan0.IN21
+timeSelector => LessThan0.IN22
+timeSelector => LessThan0.IN23
+timeSelector => LessThan0.IN24
+timeSelector => LessThan0.IN25
+timeSelector => LessThan0.IN26
+timeSelector => LessThan0.IN27
+timeSelector => LessThan0.IN28
+timeSelector => LessThan0.IN61
+timeSelector => LessThan0.IN62
+timeSelector => LessThan0.IN63
+timeSelector => LessThan0.IN64
+saida <= tmp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ProjetoFinal|Timer_30s:inst67|Contador_Decre_3:inst18
+M <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+N <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+O <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+P <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ProjetoFinal|Switch_bus_detector:inst59
+OUT[0] <= Switch_Detector:inst.change_detected
+OUT[1] <= Switch_Detector:inst1.change_detected
+OUT[2] <= Switch_Detector:inst2.change_detected
+OUT[3] <= Switch_Detector:inst3.change_detected
+OUT[4] <= Switch_Detector:inst4.change_detected
+OUT[5] <= Switch_Detector:inst5.change_detected
+OUT[6] <= Switch_Detector:inst6.change_detected
+OUT[7] <= Switch_Detector:inst7.change_detected
+OUT[8] <= Switch_Detector:inst8.change_detected
+OUT[9] <= Switch_Detector:inst9.change_detected
+CLK => Switch_Detector:inst.clk
+CLK => Switch_Detector:inst1.clk
+CLK => Switch_Detector:inst2.clk
+CLK => Switch_Detector:inst3.clk
+CLK => Switch_Detector:inst4.clk
+CLK => Switch_Detector:inst5.clk
+CLK => Switch_Detector:inst6.clk
+CLK => Switch_Detector:inst7.clk
+CLK => Switch_Detector:inst8.clk
+CLK => Switch_Detector:inst9.clk
+IN[0] => Switch_Detector:inst.switch
+IN[1] => Switch_Detector:inst1.switch
+IN[2] => Switch_Detector:inst2.switch
+IN[3] => Switch_Detector:inst3.switch
+IN[4] => Switch_Detector:inst4.switch
+IN[5] => Switch_Detector:inst5.switch
+IN[6] => Switch_Detector:inst6.switch
+IN[7] => Switch_Detector:inst7.switch
+IN[8] => Switch_Detector:inst8.switch
+IN[9] => Switch_Detector:inst9.switch
+
+
+|ProjetoFinal|Switch_bus_detector:inst59|Switch_Detector:inst
+clk => change_detected~reg0.CLK
+clk => switch_reg.CLK
+reset => change_detected~reg0.ACLR
+reset => switch_reg.ACLR
+switch => process_0.IN1
+switch => switch_reg.DATAIN
+change_detected <= change_detected~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ProjetoFinal|Switch_bus_detector:inst59|Switch_Detector:inst1
+clk => change_detected~reg0.CLK
+clk => switch_reg.CLK
+reset => change_detected~reg0.ACLR
+reset => switch_reg.ACLR
+switch => process_0.IN1
+switch => switch_reg.DATAIN
+change_detected <= change_detected~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ProjetoFinal|Switch_bus_detector:inst59|Switch_Detector:inst2
+clk => change_detected~reg0.CLK
+clk => switch_reg.CLK
+reset => change_detected~reg0.ACLR
+reset => switch_reg.ACLR
+switch => process_0.IN1
+switch => switch_reg.DATAIN
+change_detected <= change_detected~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ProjetoFinal|Switch_bus_detector:inst59|Switch_Detector:inst3
+clk => change_detected~reg0.CLK
+clk => switch_reg.CLK
+reset => change_detected~reg0.ACLR
+reset => switch_reg.ACLR
+switch => process_0.IN1
+switch => switch_reg.DATAIN
+change_detected <= change_detected~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ProjetoFinal|Switch_bus_detector:inst59|Switch_Detector:inst4
+clk => change_detected~reg0.CLK
+clk => switch_reg.CLK
+reset => change_detected~reg0.ACLR
+reset => switch_reg.ACLR
+switch => process_0.IN1
+switch => switch_reg.DATAIN
+change_detected <= change_detected~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ProjetoFinal|Switch_bus_detector:inst59|Switch_Detector:inst5
+clk => change_detected~reg0.CLK
+clk => switch_reg.CLK
+reset => change_detected~reg0.ACLR
+reset => switch_reg.ACLR
+switch => process_0.IN1
+switch => switch_reg.DATAIN
+change_detected <= change_detected~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ProjetoFinal|Switch_bus_detector:inst59|Switch_Detector:inst6
+clk => change_detected~reg0.CLK
+clk => switch_reg.CLK
+reset => change_detected~reg0.ACLR
+reset => switch_reg.ACLR
+switch => process_0.IN1
+switch => switch_reg.DATAIN
+change_detected <= change_detected~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ProjetoFinal|Switch_bus_detector:inst59|Switch_Detector:inst7
+clk => change_detected~reg0.CLK
+clk => switch_reg.CLK
+reset => change_detected~reg0.ACLR
+reset => switch_reg.ACLR
+switch => process_0.IN1
+switch => switch_reg.DATAIN
+change_detected <= change_detected~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ProjetoFinal|Switch_bus_detector:inst59|Switch_Detector:inst8
+clk => change_detected~reg0.CLK
+clk => switch_reg.CLK
+reset => change_detected~reg0.ACLR
+reset => switch_reg.ACLR
+switch => process_0.IN1
+switch => switch_reg.DATAIN
+change_detected <= change_detected~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ProjetoFinal|Switch_bus_detector:inst59|Switch_Detector:inst9
+clk => change_detected~reg0.CLK
+clk => switch_reg.CLK
+reset => change_detected~reg0.ACLR
+reset => switch_reg.ACLR
+switch => process_0.IN1
+switch => switch_reg.DATAIN
+change_detected <= change_detected~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ProjetoFinal|Hex7seg:int60
+M => a.IN0
+M => a.IN0
+M => b.IN0
+M => a.IN0
+M => a.IN0
+M => e.IN0
+M => f.IN0
+N => a.IN1
+N => a.IN1
+N => b.IN0
+N => a.IN1
+N => a.IN1
+N => e.IN0
+O => a.IN1
+O => b.IN1
+O => b.IN1
+O => c.IN1
+O => c.IN1
+O => f.IN1
+O => g.IN1
+O => a.IN1
+O => a.IN1
+O => a.IN1
+O => e.IN1
+P => a.IN1
+P => a.IN1
+P => a.IN1
+P => b.IN1
+P => b.IN1
+P => d.IN1
+P => e.IN1
+P => e.IN1
+P => f.IN1
+P => f.IN1
+P => g.IN1
+P => a.IN1
+P => b.IN1
+P => b.IN1
+P => c.IN1
+P => d.IN1
+P => g.IN1
+a <= a.DB_MAX_OUTPUT_PORT_TYPE
+b <= b.DB_MAX_OUTPUT_PORT_TYPE
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ProjetoFinal|Contador_Cresc_9:inst30
+M <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst4.IN0
+CLK => inst11.IN0
+N <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+O <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+P <= inst.DB_MAX_OUTPUT_PORT_TYPE
+cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ProjetoFinal|Hex7seg:inst99
+M => a.IN0
+M => a.IN0
+M => b.IN0
+M => a.IN0
+M => a.IN0
+M => e.IN0
+M => f.IN0
+N => a.IN1
+N => a.IN1
+N => b.IN0
+N => a.IN1
+N => a.IN1
+N => e.IN0
+O => a.IN1
+O => b.IN1
+O => b.IN1
+O => c.IN1
+O => c.IN1
+O => f.IN1
+O => g.IN1
+O => a.IN1
+O => a.IN1
+O => a.IN1
+O => e.IN1
+P => a.IN1
+P => a.IN1
+P => a.IN1
+P => b.IN1
+P => b.IN1
+P => d.IN1
+P => e.IN1
+P => e.IN1
+P => f.IN1
+P => f.IN1
+P => g.IN1
+P => a.IN1
+P => b.IN1
+P => b.IN1
+P => c.IN1
+P => d.IN1
+P => g.IN1
+a <= a.DB_MAX_OUTPUT_PORT_TYPE
+b <= b.DB_MAX_OUTPUT_PORT_TYPE
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ProjetoFinal|Contador_Cresc_9:inst31
+M <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst4.IN0
+CLK => inst11.IN0
+N <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+O <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+P <= inst.DB_MAX_OUTPUT_PORT_TYPE
+cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ProjetoFinal|Hex7seg:inst3
+M => a.IN0
+M => a.IN0
+M => b.IN0
+M => a.IN0
+M => a.IN0
+M => e.IN0
+M => f.IN0
+N => a.IN1
+N => a.IN1
+N => b.IN0
+N => a.IN1
+N => a.IN1
+N => e.IN0
+O => a.IN1
+O => b.IN1
+O => b.IN1
+O => c.IN1
+O => c.IN1
+O => f.IN1
+O => g.IN1
+O => a.IN1
+O => a.IN1
+O => a.IN1
+O => e.IN1
+P => a.IN1
+P => a.IN1
+P => a.IN1
+P => b.IN1
+P => b.IN1
+P => d.IN1
+P => e.IN1
+P => e.IN1
+P => f.IN1
+P => f.IN1
+P => g.IN1
+P => a.IN1
+P => b.IN1
+P => b.IN1
+P => c.IN1
+P => d.IN1
+P => g.IN1
+a <= a.DB_MAX_OUTPUT_PORT_TYPE
+b <= b.DB_MAX_OUTPUT_PORT_TYPE
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ProjetoFinal|Hex7seg:inst4
+M => a.IN0
+M => a.IN0
+M => b.IN0
+M => a.IN0
+M => a.IN0
+M => e.IN0
+M => f.IN0
+N => a.IN1
+N => a.IN1
+N => b.IN0
+N => a.IN1
+N => a.IN1
+N => e.IN0
+O => a.IN1
+O => b.IN1
+O => b.IN1
+O => c.IN1
+O => c.IN1
+O => f.IN1
+O => g.IN1
+O => a.IN1
+O => a.IN1
+O => a.IN1
+O => e.IN1
+P => a.IN1
+P => a.IN1
+P => a.IN1
+P => b.IN1
+P => b.IN1
+P => d.IN1
+P => e.IN1
+P => e.IN1
+P => f.IN1
+P => f.IN1
+P => g.IN1
+P => a.IN1
+P => b.IN1
+P => b.IN1
+P => c.IN1
+P => d.IN1
+P => g.IN1
+a <= a.DB_MAX_OUTPUT_PORT_TYPE
+b <= b.DB_MAX_OUTPUT_PORT_TYPE
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Usuario/Documents/Faculdade/Projetos/CircuitosD/Lab7/simulation/qsim
+vhard_block
+Z1 !s110 1718372164
+!i10b 1
+!s100 O4Ri19UfUBVbCKOYXgoIS2
+IELn45N>TEhMM`NDo>[_kS1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1718372162
+Z4 8Lab7.vo
+Z5 FLab7.vo
+L0 3766
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1718372164.000000
+Z8 !s107 Lab7.vo|
+Z9 !s90 -work|work|Lab7.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vLab7
+R1
+!i10b 1
+!s100 F:zcLDOU6<TUCe0LTm62D3
+I[jC:^zcH8ARdC0Zj9JRAD1
+R2
+R0
+R3
+R4
+R5
+L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@lab7
+vLab7_vlg_vec_tst
+R1
+!i10b 1
+!s100 U^F]699IOo^QhE:eVm2BW0
+IU30Q47V7=MR:QPf?mgOC=0
+R2
+R0
+w1718372160
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+n@lab7_vlg_vec_tst

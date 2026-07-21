@@ -1,0 +1,17 @@
+|Lab5
+S3 <= Lab:inst.s3
+KEY1 => Lab:inst.clock
+S2 <= Lab:inst.s2
+S1 <= Lab:inst.s1
+S0 <= Lab:inst.s0
+
+
+|Lab5|Lab:inst
+clock => estado~1.DATAIN
+reset => estado~3.DATAIN
+s3 <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+s2 <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+s1 <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+s0 <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+
+
